@@ -1,0 +1,41 @@
+# macOS / Finder junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode user-specific state (project-local)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode build artefacts
+build/
+DerivedData/
+*.o
+*.a
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+Timing.json
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets / local env
+.env
+.env.*
+*.pem
